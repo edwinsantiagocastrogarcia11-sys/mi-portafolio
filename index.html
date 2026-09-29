@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+    <body>
+    <link rel="stylesheet" href="estilos.css">
+    
+
+    <header>
+
+        <div class="logo">Mi Portafolio</div>
+
+        <button type="button" id="menu-btn"onclick="menu.classList.toggle('activo')">☰</button>
+        <nav id="menu">
+            <a href="#inicio">Inicio</a>
+            <a href="#acerca-de">Acerca 
+        de</a>
+            <a href="#habilidades">habilidades</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+
+     <main>
+     <section id="inicio">
+        <h1>¡Hola! Soy Edwin Castro</h1>
+        <p>Estudiante de desarrollo web apasionado por crear experiencias digitales atractivas y funcionales.</p>
+      </section>
+     </main>
+    
+    <section id="acerca-de-mi">
+        <img src="edwin.png" alt="Foto de perfil" class="foto-perfil">
+
+        <div class="texto-acerca">
+             <h2>Acerca de MI</h2> 
+             <p >
+             Soy un estudiante de desarrollo web ene el programa de formación de jovenes creativos 
+             apasionado por crear experiencias digitales atractivas y funcionales. Me estoy especializando
+             en HTML, CSS y JavaScript, y busco especializarme en las diferentes areas de desorrollo web.
+             Mi objetivo es seguir aprendiendo y creciendo como desarrollador web, y contribuir a proyectos
+             que tengan un impacto positivo en la sociedad.
+             </p>
+        </div>
+    </section>
+        </div>
+
+    </section>
+
+    <section id="habilidades">
+       <h2>Habilidades</h2>
+       <div class="contenedor-habilidades">
+         <div class="targeta-habilidades">
+            <p>html</p>
+            <progress value="70" max="100"></progress>
+          </div>
+
+        <div class="targeta-habilidades">
+            <p>CSS</p>
+            <progress value="48" max="100"></progress>
+        </div>
+
+        <div class="targeta-habilidades">
+            <p>javaScript</p>
+            <progress value="20" max="100"></progress>
+        </div>
+
+        <div class="targeta-habilidades">
+            <p>Reponsive Design</p>
+            <progress value="69" max="100"></progress>
+        </div>
+    </div>
+    </section>
+
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+
+        <div class="targeta-proyectos">
+            <h3>Mi otro proyecto</h3>
+            <p>Esta es una pagina web que es el trabajo final de jovenes creativos</p>
+            <a href="proyectos/index.html">Ver proyecto</a>
+        </div>
+    </section>
+
+
+    <section id="contacto">
+        <h2>Contacto </h2>
+        <form>
+            <h3>email</h3>
+            <p>edwinsantiagocastrogarcia11@gmail.com</p>
+            <h3>teléfono</h3>
+            <p>+57 310 4746 942</p>
+            <h3>ubicación</h3>
+            <p>cali, Colombia</p>
+
+        <div class="formulario">
+            <h3>Formulario</h3>
+
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Correo electrónico" required>
+            <textarea placeholder="Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2026 Mi Portafolios personal.</p>
+    </footer>
+
+<script src="java.js"></script>
+
+</body>
+</html>
